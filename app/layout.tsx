@@ -43,7 +43,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={inter.className}>
       <head />
-      <body>{children}</body>
+      <body className="bg-gray-800">{children}</body>
     </html>
   );
 }

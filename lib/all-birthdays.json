@@ -1,0 +1,70 @@
+{
+  "friends": [
+    {
+      "name": "Ganga Babu Rachamanti",
+      "age": 23,
+      "birthday": "01-04-1999",
+      "is_expired": false,
+      "is_ongoing": false,
+      "is_upcoming": false,
+      "greeting_message": "Wish you a very happy birthday",
+      "background": {
+        "type": "linear_gradient",
+        "colors": ["#100344", "#56eaf3", "#9a3112"],
+        "stops": [0, 23, 56],
+        "position": "top_right"
+      },
+      "text_color": "blue"
+    }
+  ],
+  "me": [
+    {
+      "name": "Mahesh Muttinti",
+      "age": 26,
+      "birthday": "08-13-1999",
+      "is_expired": false,
+      "is_ongoing": false,
+      "is_upcoming": false,
+      "greeting_message": "Wish you a very happy birthday",
+      "background": {
+        "type": "linear_gradient",
+        "colors": ["#100344", "#56eaf3", "#9a3112"],
+        "stops": [0, 23, 56],
+        "position": "top_right"
+      },
+      "text_color": "blue"
+    }
+  ],
+  "sirs": [],
+  "madams": [],
+  "managers": [],
+  "collegues": [],
+  "best_friends": [],
+  "brothers": [],
+  "sisters": [],
+  "parents": [],
+  "relatives": [],
+  "neighbours": [],
+  "cousins": [],
+  "beloved": [],
+  "actors": [],
+  "actress": [],
+  "heroes": [],
+  "heroines": [],
+  "kings": [],
+  "queens": [],
+  "unknown_persons": [],
+  "things": [],
+  "plants": [],
+  "animals": [],
+  "trees": [],
+  "houses": [],
+  "places": [],
+  "scientists": [],
+  "programmers": [],
+  "youtubers": [],
+  "tiktokers": [],
+  "influencers": [],
+  "birds": [],
+  "electronic_accessories": []
+}
