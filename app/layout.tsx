@@ -2,7 +2,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 
 export const metadata = {
-  title: "Friends Birthday Template",
+  title: "Friends Birthdays",
   description: "This Template is common template for all the birthday wishes",
   icons: {
     icon: [
@@ -18,7 +18,7 @@ export const metadata = {
   openGraph: {
     title: "Friends Birthday",
     description: "This Template is common template for all the birthday wishes",
-    url: "https://maheshmuttintidev.in",
+    url: "https://birthdays.maheshmuttintidev.in",
     siteName: "Friends Birthday",
     locale: "en",
     type: "website",
