@@ -41,7 +41,24 @@
   "collegues": [],
   "best_friends": [],
   "brothers": [],
-  "sisters": [],
+  "sisters": [
+    {
+      "name": "Kruthika Bandaru",
+      "age": 13,
+      "birthday": "07-29-2011",
+      "is_expired": false,
+      "is_ongoing": false,
+      "is_upcoming": false,
+      "greeting_message": "Wish you a very happy birthday",
+      "background": {
+        "type": "linear_gradient",
+        "colors": ["#100344", "#56eaf3", "#9a3112"],
+        "stops": [0, 23, 56],
+        "position": "top_right"
+      },
+      "text_color": "blue"
+    }
+  ],
   "parents": [],
   "relatives": [],
   "neighbours": [],
