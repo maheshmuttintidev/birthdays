@@ -2,34 +2,15 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 
 export const metadata = {
-  title: "Friends Birthdays",
-  description: "This Template is common template for all the birthday wishes",
-  icons: {
-    icon: [
-      { url: "/favicon.ico" },
-      // new URL("/favicon.ico", "https://maheshmuttintidev.in"),
-    ],
-    apple: [{ url: "/apple-icon.png" }],
-  },
-  // metadataBase: new URL("https://maheshmuttintidev.in"),
+  title: "Birthday Wishes",
+  description:
+    "Birthday Wishes to My Friends, Collegues, Teachers, Lecturers, Neighbours, Best Friends, and Beloved Peoples",
+  metadataBase: new URL("https://birthdays.maheshmuttintidev.in/"),
   alternates: {
     canonical: "/",
-  },
-  openGraph: {
-    title: "Friends Birthday",
-    description: "This Template is common template for all the birthday wishes",
-    url: "https://birthdays.maheshmuttintidev.in",
-    siteName: "Friends Birthday",
-    locale: "en",
-    type: "website",
-    images: ["/brand_banner.webp"],
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Friends Birthday",
-    description: "This Template is common template for all the birthday wishes",
-    creator: "@MaheshMuttinti",
-    images: ["/brand_banner.webp"],
+    languages: {
+      "en-US": "/en-US",
+    },
   },
 };
 
@@ -43,7 +24,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={inter.className}>
       <head />
-      <body className="bg-gray-800">{children}</body>
+      <body>{children}</body>
     </html>
   );
 }

@@ -10,11 +10,11 @@
       "greeting_message": "Wish you a very happy birthday",
       "background": {
         "type": "linear_gradient",
-        "colors": ["#100344", "#56eaf3", "#9a3112"],
-        "stops": [0, 23, 56],
+        "colors": ["#4a148c", "#6a1b9a", "#8e24aa"],
+        "stops": [0, 50, 100],
         "position": "top_right"
       },
-      "text_color": "blue"
+      "text_color": "black"
     }
   ],
   "me": [
@@ -28,19 +28,13 @@
       "greeting_message": "Wish you a very happy birthday",
       "background": {
         "type": "linear_gradient",
-        "colors": ["#100344", "#56eaf3", "#9a3112"],
-        "stops": [0, 23, 56],
-        "position": "top_right"
+        "colors": ["#1e3a8a", "#3b82f6", "#9333ea"],
+        "stops": [0, 50, 100],
+        "position": "top_left"
       },
-      "text_color": "blue"
+      "text_color": "black"
     }
   ],
-  "sirs": [],
-  "madams": [],
-  "managers": [],
-  "collegues": [],
-  "best_friends": [],
-  "brothers": [],
   "sisters": [
     {
       "name": "Kruthika Bandaru",
@@ -52,36 +46,65 @@
       "greeting_message": "Wish you a very happy birthday",
       "background": {
         "type": "linear_gradient",
-        "colors": ["#100344", "#56eaf3", "#9a3112"],
-        "stops": [0, 23, 56],
+        "colors": ["#ff4081", "#f06292", "#f48fb1"],
+        "stops": [0, 50, 100],
         "position": "top_right"
       },
-      "text_color": "blue"
+      "text_color": "black"
     }
   ],
-  "parents": [],
-  "relatives": [],
-  "neighbours": [],
-  "cousins": [],
-  "beloved": [],
-  "actors": [],
-  "actress": [],
-  "heroes": [],
-  "heroines": [],
-  "kings": [],
-  "queens": [],
-  "unknown_persons": [],
-  "things": [],
-  "plants": [],
-  "animals": [],
-  "trees": [],
-  "houses": [],
-  "places": [],
-  "scientists": [],
-  "programmers": [],
-  "youtubers": [],
-  "tiktokers": [],
-  "influencers": [],
-  "birds": [],
-  "electronic_accessories": []
+  "best_friends": [
+    {
+      "name": "John Doe",
+      "age": 30,
+      "birthday": "12-20-1993",
+      "is_expired": false,
+      "is_ongoing": false,
+      "is_upcoming": false,
+      "greeting_message": "Have a fantastic birthday!",
+      "background": {
+        "type": "linear_gradient",
+        "colors": ["#0d47a1", "#1976d2", "#64b5f6"],
+        "stops": [0, 50, 100],
+        "position": "bottom_left"
+      },
+      "text_color": "black"
+    }
+  ],
+  "managers": [
+    {
+      "name": "Alice Smith",
+      "age": 35,
+      "birthday": "11-05-1988",
+      "is_expired": false,
+      "is_ongoing": false,
+      "is_upcoming": false,
+      "greeting_message": "Happy birthday, boss!",
+      "background": {
+        "type": "linear_gradient",
+        "colors": ["#388e3c", "#4caf50", "#81c784"],
+        "stops": [0, 50, 100],
+        "position": "top"
+      },
+      "text_color": "black"
+    }
+  ],
+  "collegues": [
+    {
+      "name": "Bob Johnson",
+      "age": 28,
+      "birthday": "03-18-1995",
+      "is_expired": false,
+      "is_ongoing": false,
+      "is_upcoming": false,
+      "greeting_message": "Enjoy your special day!",
+      "background": {
+        "type": "linear_gradient",
+        "colors": ["#e53935", "#f44336", "#ef9a9a"],
+        "stops": [0, 50, 100],
+        "position": "bottom_right"
+      },
+      "text_color": "black"
+    }
+  ]
 }
