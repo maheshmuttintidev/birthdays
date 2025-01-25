@@ -1,3 +1,4 @@
+import { WebsiteTrackerClient } from "components/website-tracker";
 import { Inter } from "next/font/google";
 import "./globals.css";
 
@@ -24,7 +25,9 @@ export default function RootLayout({
   return (
     <html lang="en" className={inter.className}>
       <head />
-      <body>{children}</body>
+      <body>{children}
+        <WebsiteTrackerClient />
+      </body>
     </html>
   );
 }
